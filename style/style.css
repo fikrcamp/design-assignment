@@ -45,7 +45,8 @@ header .nav-btn:hover {
   display: flex;
   align-items: center;
 }
-.h1 {
+.h1,
+h2 {
   font-size: 30px;
   font-family: "Press Start 2P";
   padding-bottom: 10px;
@@ -56,6 +57,17 @@ header .nav-btn:hover {
 }
 .main img {
   width: 50%;
+}
+
+.secondary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 0px 100px 100px 100px;
+}
+.secondary p {
+  text-align: center;
 }
 
 @media (max-width: 600px) {
@@ -69,5 +81,15 @@ header .nav-btn:hover {
   .text p {
     text-align: center;
     gap: 20px;
+  }
+  ..secondary {
+    display: flex;
+    flex-direction: row;
+  }
+  .secondary img {
+    width: 70%;
+  }
+  .secondary h2 {
+    font-size: 20px;
   }
 }
