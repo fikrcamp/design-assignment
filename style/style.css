@@ -41,9 +41,10 @@ header .nav-btn:hover {
   color: black;
 }
 .main {
-  padding: 100px;
+  padding: ;
   display: flex;
   align-items: center;
+  padding: 100px;
 }
 .h1,
 h2 {
@@ -54,6 +55,8 @@ h2 {
 }
 .text p {
   font-family: monospace;
+  color: var(--blue);
+  font-size: 20px;
 }
 .main img {
   width: 50%;
@@ -69,6 +72,39 @@ h2 {
 .secondary p {
   text-align: center;
 }
+.row {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 100px 0px;
+}
+.work {
+  padding: 100px 0px;
+}
+.work-img img {
+  width: 400px;
+}
+.work-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.work .text {
+  padding: 50px;
+}
+footer {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer img {
+  height: 100px;
+}
+.navi {
+  display: flex;
+  flex-direction: column;
+}
 
 @media (max-width: 600px) {
   .main {
@@ -81,6 +117,7 @@ h2 {
   .text p {
     text-align: center;
     gap: 20px;
+    font-size: 15px;
   }
   ..secondary {
     display: flex;
@@ -90,6 +127,17 @@ h2 {
     width: 70%;
   }
   .secondary h2 {
-    font-size: 20px;
   }
-}
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .row-img {
+    display: flex;
+  }
+  .row-img img {
+    width: 33%;
+  }
+  .work-img img {
+    width: 50%;
+  }
