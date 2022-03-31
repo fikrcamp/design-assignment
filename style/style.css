@@ -1,0 +1,143 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+:root {
+  --blue: #003d6a;
+  --gray: #f0f0f0;
+}
+body {
+  background-color: var(--gray);
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.icon {
+  height: 100px;
+}
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+}
+.nav-btn {
+  border: none;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: var(--blue);
+  color: var(--gray);
+}
+header,
+.nav-btn:hover {
+  cursor: pointer;
+}
+.nav-list li:hover {
+  color: var(--blue);
+}
+header .nav-btn:hover {
+  color: black;
+}
+.main {
+  padding: ;
+  display: flex;
+  align-items: center;
+  padding: 100px;
+}
+.h1,
+h2 {
+  font-size: 30px;
+  font-family: "Press Start 2P";
+  padding-bottom: 10px;
+  text-align: center;
+}
+.text p {
+  font-family: monospace;
+  color: var(--blue);
+  font-size: 20px;
+}
+.main img {
+  width: 50%;
+}
+
+.secondary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 0px 100px 100px 100px;
+}
+.secondary p {
+  text-align: center;
+}
+.row {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 100px 0px;
+}
+.work {
+  padding: 100px 0px;
+}
+.work-img img {
+  width: 400px;
+}
+.work-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.work .text {
+  padding: 50px;
+}
+footer {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer img {
+  height: 100px;
+}
+.navi {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .main {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .main img {
+    width: 70%;
+  }
+  .text p {
+    text-align: center;
+    gap: 20px;
+    font-size: 15px;
+  }
+  ..secondary {
+    display: flex;
+    flex-direction: row;
+  }
+  .secondary img {
+    width: 70%;
+  }
+  .secondary h2 {
+  }
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .row-img {
+    display: flex;
+  }
+  .row-img img {
+    width: 33%;
+  }
+  .work-img img {
+    width: 50%;
+  }
