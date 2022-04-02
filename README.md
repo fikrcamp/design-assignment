@@ -1,2 +1,3 @@
-## This is an assignment to create a web design using flexbox.
+## Arsenal layout page
 
+### DEMO: https://xbdirisxk.github.io/flexbox-assignment/
