@@ -1,0 +1,227 @@
+:root {
+    --body: hsl(210, 8%, 92%);
+    --red: hsl(0, 100%, 47%);
+    --dark-red: hsl(0, 100%, 50%);
+    --footer: hsl(218, 35%, 14%);
+}
+
+/* generic style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: var(--body);
+    font-size: 1rem;
+}
+
+/* logo */
+.header {
+    background-color: var(--red);
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 70px;
+}
+
+.logo {
+    padding: 10px;
+    z-index: 100;
+}
+.logo-img {
+    height: 80px;
+    width: 100px;
+}
+
+/* navbar */
+.nav {
+    background-color: var(--red);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 10px 5px;
+    font-size: 1.4rem;
+    color: white;
+    width: 90%;
+}
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-menu > * {
+    padding: 5px 10px;
+    transition: 0.2s;
+}
+.nav-menu > *:hover {
+    color: hsl(0, 0%, 20%);
+    cursor: pointer;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brands > img {
+    padding: 2px 7px;
+    width: 45px;
+    height: 28px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* home sytle */
+.home {
+    position: relative;
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+}
+.background-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../assets/images/stadium.jpg) no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.home > h1 {
+    font-family: monospace;
+    letter-spacing: 5px;
+    font-size: 3.5rem;
+    color: hsl(0, 60%, 31%);
+    padding-top: 100px;
+    transition: 0.3s;
+}
+.home > h1:hover {
+    cursor: default;
+    letter-spacing: 15px;
+}
+
+/* trending */
+.trend {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    height: 90%;
+    width: 80%;
+}
+.card > * {
+    border-top: 25px solid hsl(0, 100%, 50%);
+    transition: 0.2s;
+}
+.card:hover > * {
+    border-top: 25px solid hsl(0, 100%, 30%);
+}
+
+.trend-img {
+    width: 50%;
+}
+.trend-img img {
+    height: 100%;
+    width: 100%;
+}
+
+/* .card:hover img {
+    transform: scale(3); 
+} */
+
+.trend-news {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+/* female club */
+.club {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    height: 100vh;
+    width: 100%;
+}
+.female-club {
+    background-color: brown;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    height: 100%;
+    width: 100%;
+}
+.female-players-img,
+.about-female-club {
+    height: 100%;
+    width: 50%;
+}
+
+.female-players-img > img {
+    height: 100%;
+    width: 90%;
+}
+
+.about-female-club {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-female-club > * {
+    padding: 10px;
+}
+
+/* footer */
+.footer {
+    background-color: var(--footer);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1.1rem;
+    padding: 20px;
+    padding-bottom: 5px;
+    height: 26vh;
+}
+.footer-logos > * {
+    margin: 10px;
+    opacity: 0.6;
+    transform: 0.1s;
+}
+.footer-logos > *:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.footer-logos img:last-child {
+    background-color: hsl(0, 0%, 80%);
+    height: 100px;
+    width: 200px;
+}
