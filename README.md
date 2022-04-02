@@ -1,3 +1,3 @@
 ## Arsenal layout page
 
-### https://xbdirisxk.github.io/flexbox-assignment/
+### DEMO: https://xbdirisxk.github.io/flexbox-assignment/

@@ -78,6 +78,10 @@ body {
     height: 28px;
     opacity: 0.8;
     cursor: pointer;
+    transition: 0.1s;
+}
+.brands > img:hover {
+    opacity: 0.9;
 }
 
 /* home sytle */
@@ -127,13 +131,14 @@ body {
     padding: 10px;
     height: 90%;
     width: 80%;
+    cursor: pointer;
 }
 .card > * {
     border-top: 25px solid hsl(0, 100%, 50%);
-    transition: 0.2s;
+    transition: 0.4s;
 }
 .card:hover > * {
-    border-top: 25px solid hsl(0, 100%, 30%);
+    border-top: 25px solid hsl(0, 100%, 35%);
 }
 
 .trend-img {
@@ -143,10 +148,6 @@ body {
     height: 100%;
     width: 100%;
 }
-
-/* .card:hover img {
-    transform: scale(3); 
-} */
 
 .trend-news {
     width: 40%;
@@ -184,6 +185,24 @@ body {
 .female-players-img > img {
     height: 100%;
     width: 90%;
+    position: relative;
+    transition: 0.3s;
+    transform: scale(0.97);
+}
+
+.female-players-img > img::after {
+    content: '';
+    background-color: red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+.female-club:hover img {
+    opacity: 0.5;
+    transform: scale(1);
 }
 
 .about-female-club {
