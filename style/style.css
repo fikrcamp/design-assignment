@@ -1,0 +1,235 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+/* header */
+
+
+body {
+    background-color: black ;
+    background-size: outo;
+
+           
+}
+#logo {
+   height: 40px;
+   width: 50px;
+   color:  rgb(248, 51, 2);
+   font-size: medium;
+   font-family: Arial, Helvetica, sans-serif;
+   
+   
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 700px;
+    margin-top: 20px;
+
+}
+.nav-links li{
+    color: white;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.nav-links li:hover{
+    cursor: pointer;
+    color:  rgb(248, 51, 2);
+    
+
+}
+
+.btn{
+    margin-right: 30px;
+    margin: 20px 25px;
+    font-size: medium;
+    color: rgb(248, 51, 2);
+    border: non;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    
+}
+
+/* header */
+
+/* second section*/
+.content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 100px;
+    
+    align-content: center;
+}
+#head{
+    color:rgb(248, 51, 2);
+    font-size: 30px;
+    
+}
+
+/* second section*/
+
+/* third section*/
+
+#sawr{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-self: flex-end;
+    margin-top: -200px;   
+}
+
+.dhama{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    gap: 20px;
+    padding-right: 100px;
+    background-color: rgb(32, 20, 10);
+    
+}
+#had{
+    color: rgb(248, 51, 2);
+    margin-left: 80px;
+    font-size: 40px;
+}
+
+/* third section*/
+
+/* fourth section*/ 
+.mean{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+}
+#mara{
+    width: 300px;
+    height: 220px;
+  
+}
+.rafa{
+    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+}
+#hada{
+    color: rgb(248, 51, 2);
+    font-size: 40px;
+
+}
+
+
+/* fourth section*/
+
+/* products */
+.products{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    
+}
+ 
+
+.product{
+   display: flex;
+   justify-content: center;
+   font-weight: bold;
+   padding: 20px 20px;
+   text-align: center;
+    
+}
+.product-items{
+    color: white;
+    margin: 70px 20px;
+    display: flex;
+    
+       
+}
+.product-items div {
+    border-radius: 5px; 
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+
+  } 
+#bila{
+    color: rgb(248, 51, 2);  
+    
+} 
+#prohead{
+    
+}
+
+#proimg{
+    height: 180px;
+    width: 140px;
+}
+
+/* products */
+
+  
+  /* footer   */
+footer {
+    font-size: 15px;
+    background-color: rgb(32, 20, 10);
+      
+  }
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0px;
+    gap:  200px;
+
+    
+    
+  }
+  
+.footer ul li {
+    list-style-type: none;
+  }
+.footer ul li:hover {
+    cursor: pointer;
+    color:  rgb(248, 51, 2);
+  }
+.copyright {
+
+    text-align: center;
+    border-top: 1px solid #d8d8d8;
+    padding: 5px 0px;
+    font-size: 12px;
+    font-weight: bold;
+    
+    
+    
+  }
+
+  /* footer   */
+  
+
+
+
+
+
