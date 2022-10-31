@@ -1,0 +1,336 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+
+
+.main {
+    width: 100%;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.side-bar {
+    width: 15%;
+    height: 100%;
+    position: sticky;
+    left: 0;
+    top: 0;
+
+
+}
+
+.side-bar .menu .side-items {
+    width: 20px;
+
+
+}
+
+.side-bar .menu .bot,
+.mid {
+    margin-bottom: 10px;
+}
+
+
+.side-bar .menu .top {
+    margin-top: 10px;
+}
+
+
+.side-bar .menu a {
+    display: flex;
+    align-items: center;
+}
+
+.side-bar .menu a {
+    filter: brightness(50%);
+}
+
+.side-bar .menu .top {
+    filter: none;
+}
+
+.side-bar .menu p {
+
+    margin-left: 15%;
+}
+
+.side-bar .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+.container {
+    width: 83%;
+    height: auto;
+    margin-right: 2%;
+
+
+}
+
+hr {
+
+    border: 0.3px solid #d7d6d6;
+    margin-left: 2%;
+
+
+
+}
+
+header {
+    background-color: white;
+
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 20px;
+    flex-grow: 1;
+    position: sticky;
+    top: 0;
+}
+
+.logo-bar {
+    width: 20%;
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.youtube {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.youtube .fa-youtube {
+
+    color: red;
+
+
+}
+
+.youtube h1 {
+
+    font-weight: 900;
+    font-size: 20px;
+
+}
+
+.search-con {
+    width: 41%;
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+
+.search {
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 30px;
+    border: 1px solid #555;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.search>input {
+
+    width: 90%;
+    border: 0px;
+    outline: 0px;
+}
+
+.search>button {
+    background-color: white;
+
+    width: 10%px;
+    border: 0px;
+    outline: 0px;
+}
+
+.fa-microphone {
+    margin-left: 15px;
+}
+
+.profile {
+    width: 20%;
+    display: inline-flex;
+    justify-content: end;
+    align-items: center;
+
+
+}
+
+.profile .prof-img {
+    width: 35px;
+    border-radius: 50%;
+}
+
+.profile img {
+
+    margin-left: 30px;
+}
+
+.profile .icons {
+    width: 20px;
+}
+
+.more {
+
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 8px 2px;
+
+
+
+}
+
+.more span {
+    padding: 5px 13px;
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: #dad8d8;
+    border: 1px solid #5a5a5a;
+    text-align: center;
+
+}
+
+#all {
+    background-color: #333;
+    color: white;
+}
+
+.video {
+    margin-top: 1%;
+    margin-left: 2%;
+
+}
+
+
+.video .video-con a .thumb {
+    width: 100%;
+}
+
+.video .video-con .video-description .pro {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.video .video-con .video-description {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    text-align: start;
+
+}
+
+.video .video-con .video-description .text {
+    margin-left: -50px;
+    width: 65%;
+}
+
+.video .video-con .video-description .text h4 {
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+.video .video-con .video-description .text p {
+    font-size: 12px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.video {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .side-bar .menu p {
+        display: none;
+    }
+
+    .side-bar {
+        padding-top: 8%;
+        margin-left: 5%;
+    }
+
+    .search-con .search {
+
+        justify-content: center;
+        border-radius: 0%;
+        border: 0px;
+
+
+    }
+
+    .search-con {
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+
+
+    }
+
+    .search-con .search input {
+        display: none;
+    }
+
+    .search-con .search button {
+        margin-left: -40px;
+        width: 35px;
+
+
+    }
+
+    .fa-microphone {
+
+        margin-left: -40px;
+
+    }
+
+    hr {
+        display: none;
+    }
+
+    .more {
+        display: none;
+    }
+
+    .container .profile {
+        width: 5%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+}
