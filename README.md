@@ -9,4 +9,7 @@ You can deisgn the pages however you want be creative and once you've created th
 ## my design
 
 ### home page
- ![image](https://user-images.githubusercontent.com/65617964/199040080-c6eb8a8a-1079-4992-be90-a1b4cad0c6b6.png)
+![image](https://user-images.githubusercontent.com/65617964/199041302-19f11fa7-0a61-4615-9065-b64761eb110d.png)
+
+## about page
+![image](https://user-images.githubusercontent.com/65617964/199041404-1de24c0e-a1ec-4e10-b351-6c5046a77b57.png)
