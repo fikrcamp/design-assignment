@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Capriola', sans-serif;
+}
+
+.header{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(9,132,227,0.85); 
+}
+.bg-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: -1;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 165px;
+    height: 66px;
+    margin-left: 150px;
+    padding-right: 485px;
+}
+
+.header ul {
+    list-style: none;
+    float: right;
+    display: flex;
+}
+
+ul li{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 25px;
+    color: white;
+    font-size: 18px;
+    padding: 0 18px;
+    font-weight: 300;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -990px;
+    color: white;
+}
+
+.text h1{
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.text p{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 1.75em;
+    line-height: 35px;
+}
+
+.text button{
+    background-color: white;
+    color: rgba(9,132,227,0.85);
+    font-size: 16px;
+    padding: 15px 40px 16px;
+    border: none;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+button:hover{
+    background-color: rgb(225, 214, 214);
+    color: white;
+}
+
+.container{
+    padding: 10px 4%;
+    padding-bottom: 100px;
+    background-color: #fafafa;
+}
+
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    gap: 15px;
+}
+
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(0, 0, 0,.2);
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: -90px;
+    z-index: 1;
+}
+
+.container .box-container .box img{
+    height: 43.89px;
+    width: 42.01px;
+    fill: #0984e3;
+    color: #0984e3;
+    border-color: #0984e3;
+}
+
+.container .box-container .box h3{
+    color: #808285;
+    font-size: 1.5em;
+    line-height: 1.4;
+    padding-bottom: 7px;
+    padding-top: 25px;
+}
+
+.container1{
+    padding: 15px 9%;
+    padding-bottom: 100px;
+    background-color: #fafafa;
+}
+.container1 .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color: #4b5658;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    font-size: 2.1875rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.container1 .box-container1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    gap: 15px;
+    
+}
+.container1 .box-container1 .box1{
+    box-shadow: 0 5px 10px rgba(0, 0, 0,.2);
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+.container1 .box-container1 .box1 img{
+    height: auto;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    vertical-align: middle;
+}
+.container1 .box-container1 .box1 h3{
+    color: #4b5658;
+    font-size: 1.5em;
+    line-height: 1.4;
+    padding-bottom: 7px;
+    padding-top: 25px;
+}
+.container1 .box-container1 .box1 p{
+    color: gray;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container1 .box-container1 .box1 .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background: #00a2e8;
+    color: #fff;
+    font-size: 15.2px;
+    border-radius: 24px;
+    padding: 9.5px 22.8px;
+}
+.container1 .box-container1 .box1 a{
+    text-decoration: none;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.active{
+    border-bottom: 5px solid #0b0d0e;
+}
+.container2 .tx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.container2 .tx h2{
+    text-align: center;
+    font-size: 35px;
+    font-size: 2.1875rem;
+    font-weight: 400;
+    font-family: 'Capriola',sans-serif;
+    line-height: 1.2;
+    color: #4b5658;
+    margin-bottom: 25px;
+}
+.container2 .tx p{
+    margin-bottom: 1.6em;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #4b5658;
+    line-height: 25px;
+}
+.tb{
+    display: flex;
+    
+}
+.tb img{
+    width: 477px;
+    height: 357.75px;
+    margin-left: 70px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.tb .box3{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    width: 320px;
+    border-radius: 7px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+}
+.tb .box3 .faqs{
+    padding: 0px 20px 20px;
+}
+
+::-webkit-details-marker{
+    float: left;
+    margin-top: 13px;
+}
+
+details{
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-top: 40px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+details summary{
+    outline: none;
+}
+footer{
+    background-image: linear-gradient(176deg,rgb(9,132,227) 15%,rgb(0,59,177) 75%);
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    font-weight: 'Capriola', sans-serif;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.footer-content h2{
+    color: #ffffff;
+    font-size: 35px;
+    font-size: 2.1875rem;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.social{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 2rem 0;
+}
+.social li{
+    margin: 0 ;
+}
+.social a{
+    text-decoration: none;
+    color: #fff;
+}
+.social a i{
+    font-size: 3.2rem;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-bottom p{
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+hr{
+    border: solid 0.01px rgb(216, 214, 214) ;
+    opacity: 0.3;
+}
