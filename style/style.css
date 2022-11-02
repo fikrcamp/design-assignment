@@ -1,0 +1,368 @@
+#body{
+    background-image: url(black2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    
+}
+.header{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 10px solid #087a79;
+}
+#header-image{
+    width: 100%;
+    position: relative;
+    bottom: 300px;  
+}
+#cover{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    opacity: 0.5;
+}
+#menu-header{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    text-align: left;
+    margin-right: 30px; 
+    
+}
+#menu{
+    margin-left: 30px;
+    margin-top: 30px;
+    
+    
+}
+#menu > .btn{
+    margin-right: 30px;
+    color: #c7c7c7;
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+#menu > .btn:hover{
+    background-color: rgba(88, 88, 88, 0.5);}
+.active{
+    position: relative;
+    background-color: #087a79
+    
+}
+
+#main-content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -270px;
+    
+}
+#image-frame{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #087a79;
+    border-radius: 50%;
+    box-shadow: 0px 9px 8px #c7c7c7;
+    transition: box-shadow 0.2s, padding 0.4s;
+}
+#image-frame:hover{
+    box-shadow: 0px 9px 8px #959595;
+    padding: 15px;
+}
+#image-frame >img{
+    height: 100%;
+}
+#centered-content{
+    text-align: center;
+    color: white;
+    font-size: 29;
+    padding: 120px;
+    
+    
+}
+#centered-content > h1{
+    position: relative;
+    top: -30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #c7c7c7;
+}
+#main-body{
+    position: relative;
+    top: -200px;
+    
+    
+}
+#main-body > #main-header > h1{
+    font-weight: 400;
+    
+}
+#main-body > #main-header {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    color: #6b6b6b;
+    top: -70px;
+
+}
+#features{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    cursor:pointer;
+    
+}
+#feature1:hover{
+    background:rgba(67, 40, 24, 0.7)
+}
+#feature1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 50px;
+    background-color: black;
+    text-align: center;
+    color: #c7c7c7;;
+    top: -30px;
+    border-radius: 40px;
+    font-weight: 400;
+    font-family: cursive;
+    box-shadow: 0px 9px 8px #087a79;
+    
+}
+#courses-section{
+    margin-top: 150px;
+    background-image: url('black2.jpg');
+    padding: 20px 0px;
+    direction: rtl;
+    text-align: right; 
+    border-top: 10px solid #585858;
+    border-bottom: 10px solid #585858;
+}
+#courses-section h1{
+    margin-right: 30px;
+    font-size: 40px;
+    font-weight: 500;
+
+}
+.course > img{
+    height: 150px;
+}
+#courses{
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.course{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 30px;
+    background-color: rgb(221, 221, 221);
+    text-align: center;
+    top: -30px;
+    background: transparent;
+    border: 1px solid #585858;
+    border-radius: 10px;
+    font-size: 13;
+    box-shadow: 0px 2px 8px rgb(219 219 219);
+}
+.course h2{
+    margin-right: 12px;
+    color: rgb(104,104,104);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+.course button{
+    background-color: #131315;
+    border: none;
+    color: #c7c7c7;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 30px;
+    width: 90px;
+    box-shadow: 0px 2px 8px rgb(143,143,143);
+    border-radius: 10px;
+    cursor:pointer;
+}
+.course button:hover{
+    background:#ffc300;
+    color:black ;
+}
+#footer{
+    background-image: url('black2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c7c7c7;
+    border-radius: 10px;
+    box-shadow: 0px 9px 8px #131315;
+}
+#hey{
+    color: #c7c7c7;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#home{
+    text-align: left;
+    color: #c7c7c7;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 15px;
+    margin-top: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(black2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+
+  }
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-image: url(black2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #087a79;
+    text-size-adjust: 10px;
+  }
+  .about-section >h1{
+    font-family: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: bold;
+    font-size:56px;
+
+  }
+  .about-section > p{
+    font-family: cursive;
+    font-weight: normal;
+    font-size:20px;
+    color: #c7c7c7;
+    font-family:"Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  }
+  
+  .container {
+    padding: 0 16px;
+    color: #c7c7c7;
+  }
+  
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  #mu{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: 400;
+    color: #087a79;
+  }
+  #mo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: 400;
+    color: #087a79;
+  }
+  #ab{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: 400;
+    color: #087a79;
+  }
+  .row{
+    margin-left: 150px;
+    margin-top:35px;
+  }
+  .mas{
+    color: #959595  
+  }
+  .full{
+    color: #959595;
+  }
+  .end{
+    color: #959595;
+  }
+
+  #our-team{
+    font-size:30px;
+    font-weight: bold;
+    font-family: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    border-radius:20px;
+    background:#f6f6f6;
+    display:inline;
+    margin-left:40%;
+    padding:16px 32px;
+    border-radius:40px;
+    background:#a68a64;
+    color:solid black;
+    cursor:pointer;
+    transition-duration: 0.6;
+  }
+  #our-team:hover{
+    padding-bottom:12px;
+    padding-top:12px;
+    
+  }
+  
+  
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline;
+    padding: 10px;
+    color: #c7c7c7;
+    background-color: #131315;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    box-shadow: 0px 9px 8px #959595;
+    border-radius: 10px;
+  }
+  
+  .button:hover {
+    background-color: #ffc300;
+    color:black;
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
