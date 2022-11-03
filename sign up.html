@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signUp</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="logo">
+          <img src="/images/logo_transparent.png" alt="website logo" />
+        </div>
+
+        <div class="navigation">
+          <ul>
+            <li><a href="/home.html">Home</a></li>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/sign up.html" class="signUp">Sign Up</a></li>
+          </ul>
+        </div>
+      </nav>
+    </main>
+
+    <section class="regestration">
+      <span class="table">
+        <form>
+          <h2 style="color: var(--bunni)">regestration_Form</h2>
+          <div class="p-info">
+            <input
+              class="inputs"
+              name="name"
+              type="text"
+              placeholder="First Name"
+              required
+            />
+            <input
+              class="inputs"
+              type="text"
+              placeholder="Last Name"
+              required
+            />
+            <input class="inputs" type="email" placeholder="Email" required />
+            <input
+              name="password"
+              class="inputs"
+              type="password"
+              placeholder="Password..."
+              required
+            />
+          </div>
+
+          <div class="gender">
+            <h5 style="font-size: 1.2rem">gender</h5>
+            <input type="radio" name="gender" id="male" required />
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="female" required />
+            <label for="female">female</label>
+          </div>
+
+          <span class="choose">
+            <h5>Choose your boot section</h5>
+
+            <input class="aaa" type="checkbox" id="front" />
+            <label for="front">Front-End</label>
+            <input type="checkbox" id="back" />
+            <label for="back">Back-End</label>
+            <input type="checkbox" id="Mobile" />
+            <label for="Mobile">Mobile_apps</label>
+            <input type="checkbox" id="Desktop" />
+            <label for="Desktop">Desktop_apps</label>
+            <input type="checkbox" id="full" />
+            <label for="full">Full-Stack</label>
+          </span>
+          <button class="submit">Submit</button>
+        </form>
+      </span>
+
+      <div class="m-image">
+        <img src="./images/users.png" alt="user picture" />
+      </div>
+    </section>
+
+    <section class="Sfooter">
+      <footer>
+        <div class="footerlogo">
+          <img
+            style="width: 8rem; object-fit: cover; cursor: pointer"
+            src="/images/logo_transparent.png"
+            alt="website logo"
+          />
+        </div>
+
+        <div>
+          <p
+            style="
+              color: black;
+              font-size: 1rem;
+              font-weight: bold;
+              font-family: 'Courier New', Courier, monospace;
+            "
+          >
+            &#169;Coder|Abdilhai_mohamed| All Rights reserfed
+          </p>
+        </div>
+
+        <div class="social">
+          <a href="#">
+            <img src="/images/facebook.png" alt="facebook logo" />
+          </a>
+
+          <a href="#">
+            <img src="/images/twitter.png" alt="twitter logo" />
+          </a>
+
+          <a href="#">
+            <img src="/images/github-sign.png" alt="github logo" />
+          </a>
+
+          <a href="#">
+            <img src="/images/linkedin.png" alt="linkedin logo" />
+          </a>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>

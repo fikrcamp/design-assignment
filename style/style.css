@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+:root {
+
+--bunni: rgb(123, 60, 89);
+--halfbunni: rgb(110, 37, 71); 
+  --xabxab: rgb(250, 249, 186);
+  --light-yellow: rgb(255,196,132);;
+  --blue: rgb(92,98,158);
+  --orange: rgb(255,156,2);
+  
+  }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;  
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.logo > img {
+  width: 7rem;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.navigation {
+  margin-right: 4rem;
+}
+ul > li {
+  display: inline-block;
+  padding: 0.1rem;
+  
+}
+li > a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: var(--bunni);
+  transition: 0.5s ease-out;
+}
+a:hover {
+ color: var(--halfbunni);
+ background-color: white;
+ border-bottom: 1px solid var(--halfbunni);
+}
+.m-image > img{
+  width: 33rem;
+  height: 27rem;
+  object-fit: cover;
+  margin-right: 3rem;
+}
+.info  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.title{
+  color: var(--bunni);
+  font-size : 6rem;
+  line-height: 6rem;
+}
+.second-title {
+  font-size: 2rem;
+  color: var(--orange);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+}
+
+.p-text{
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.btn {
+  width: 9rem;
+  height: 3rem;
+  border: 0;
+  border-radius: 9px;
+  background-color: var(--bunni);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 12rem;
+  transition: 0.5s ease-out;
+}
+.btn:hover{
+  color: var(--halfbunni);
+  background-color: white;
+  border-bottom: 1px solid var(--halfbunni);
+}
+
+/* SIGN UP PAGE STYLE  */
+
+
+.signUp {
+  background-color: var(--bunni);
+  color:  white;
+  padding: 0.6rem;
+  border-radius: 10px;
+  border: 0;
+}
+.regestration {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+.p-info {
+  display: flex;
+  flex-direction: column;
+  width: 19rem;
+ 
+  
+}
+
+.inputs {
+  padding: 0.4rem;
+  border: 3px solid var(--bunni);
+  border-radius: 8px;
+  font-size: 1.1rem;
+  margin: 0.3rem 0.4rem;
+}
+.inputs:focus{
+  border: 3px dotted var(--bunni);
+  outline: 0;
+}
+
+.choose{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ margin: 0.3rem;
+
+}
+.submit{
+  width: 19rem;
+  height: 2.3rem;
+  border-radius: 8px;
+  border: 0;
+  background-color: var(--bunni);
+  margin-top: 1rem;
+  cursor: pointer;
+  color: white;
+  font-size: 1.2rem;
+  outline: 0;
+  transition: 0.5s ease-out;
+  margin-bottom: 12rem;
+}
+.submit:hover{
+  color: var(--halfbunni);
+  background-color: white;
+  border-bottom: 1px solid var(--halfbunni);
+}
+
+/* BOOTS STYLE section */
+
+.bootsIMG{
+   width: 10rem;
+   object-fit: cover;
+  }
+  .boots{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  margin: 1rem;
+  margin-bottom: 9rem;
+  background-color: var(--xabxab);
+  padding: 2rem;  
+}
+.b-header{
+  text-align: center;
+  padding: 1rem;
+  border-bottom: 4px solid var(--orange);
+  color: var(--bunni);
+}
+
+
+ /* special for style section */
+
+ .special{
+   display: flex; 
+   justify-content: space-around;
+   align-items: baseline;
+   padding: 1rem;
+   margin-top: 3rem;
+   color: var(--bunni);
+ }
+.specialIMGS{
+  width: 15rem;
+  object-fit: cover;
+}
+.line {
+  height: 0.3rem;
+  margin: 5rem 0;
+  background-color: var(--bunni);
+}
+
+
+
+/* OURTEAM STYLE SECTION  */
+
+
+.ourteamPNG{
+  width: 6rem;
+  height: 6rem;
+  margin: 0 1rem;
+  object-fit:scale-down;
+  border: 4px solid var(--orange);
+  border-radius: 50%;
+  float: left;
+  clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+
+}
+
+.ourteam{
+display: flex;
+justify-content: space-evenly;
+padding: 2rem;
+margin-bottom: 9rem;
+}
+.teamdiv{
+  width: 30rem;
+  height: 10rem;
+}
+
+
+/* FOOTER section style */
+
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0 2rem;
+  margin-top: 4rem;
+  padding: 1rem;
+  /* background-color: var(--xabxab); */
+
+}
+
+
+/* ABOUT US STYLE section */
+
+
+.aboutUStxt{
+  color: var(--bunni);
+  font-size : 5rem;
+  text-align: center;
+  
+}
+.aboutpicture > img{
+  width: 30rem;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.about{
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.3rem;
+  word-spacing: 0.1rem;
+ font-family: 'Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 200;
+}
+.mTITLE, .VMtitles{
+  color: var(--bunni);
+  border-left: 4px solid var(--orange);
+  font-weight: bolder;
+  font-size: 2rem;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 1.5rem;
+}
+.aboutMAIN{
+  margin-top: 3rem;
+  width: 45rem;
+}
+
+.miss_vision{
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  word-spacing: 0.1rem;
+  font-family: 'Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 1rem;
+  margin-top: 8rem;
+}
+.miss_vision > div{
+  /* background-color: red; */
+  width: 30rem;
+}
+.coder{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--xabxab);
+  height: 20rem;
+  margin:10rem 0 10rem 0;
+}
+.codertxt{
+  font-size: 5rem;
+  padding: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: var(--bunni);
+  border-top: 3px solid var(--orange);
+}
+.join{
+  font-size: 2rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: var(--orange);
+}
