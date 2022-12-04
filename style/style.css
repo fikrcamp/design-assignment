@@ -1,0 +1,47 @@
+#header
+{
+   
+
+    background-color: rgb(93, 119, 43);
+    color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+     
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 40px 0px 0px ;
+
+}
+#nav a
+{
+    margin:0px 10px  
+   
+}
+#prog
+{
+ 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: 
+  
+}
+#prog-text
+{
+    
+        text-align:center;
+        width: 50%;
+        margin:0px 50px 0px 100px;
+        padding:0px 40px 0px 0px
+
+    
+}
+#footer
+{
+    
+    background-color: rgb(93, 119, 43);
+    color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
