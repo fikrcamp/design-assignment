@@ -1,22 +1,29 @@
 #header
 {
-   
-
-    background-color: rgb(93, 119, 43);
-    color: bisque;
+    background-color: white;
+    color: aquamarine;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    font-size: large;
      
+    
+   
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding:0px 40px 0px 0px ;
+    padding:0px 40px 50px 0px ;
 
 }
 #nav a
 {
-    margin:0px 10px  
+       padding: 10px;
+        margin:0px 10px  
    
+}
+#nav a:hover
+{
+    color:rgb(132, 232, 74);
+    cursor:pointer;
 }
 #prog
 {
@@ -24,8 +31,9 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    background-color: 
-  
+    padding:0px 0px 40px 0px ;
+
+             
 }
 #prog-text
 {
@@ -33,14 +41,27 @@
         text-align:center;
         width: 50%;
         margin:0px 50px 0px 100px;
-        padding:0px 40px 0px 0px
+        padding:0px 0px 0px 0px
 
     
 }
+#prog a
+{
+    padding: 40px;
+    color: rgb(247, 2, 2);
+    font-size: 30px;
+}
+
+#prog a:hover
+{
+    color:rgb(132, 232, 74);
+    cursor:pointer;
+}
+
 #footer
 {
     
-    background-color: rgb(93, 119, 43);
+    background-color:rgb(150, 185, 83);
     color: bisque;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
